@@ -1,11 +1,11 @@
-﻿using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Identity.Users;
-using FSH.WebApi.Domain.Identity;
-using FSH.WebApi.Shared.Authorization;
-using FSH.WebApi.Shared.Multitenancy;
+﻿using BettingBook.Application.Common.Exceptions;
+using BettingBook.Application.Identity.Users;
+using BettingBook.Domain.Identity;
+using BettingBook.Shared.Authorization;
+using BettingBook.Shared.Multitenancy;
 using Microsoft.EntityFrameworkCore;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace BettingBook.Infrastructure.Identity;
 
 internal partial class UserService
 {

@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Infrastructure.Auth;
+namespace BettingBook.Infrastructure.Auth;
 
 public class SecuritySettings
 {

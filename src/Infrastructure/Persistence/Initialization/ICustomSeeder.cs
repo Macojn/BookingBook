@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Infrastructure.Persistence.Initialization;
+namespace BettingBook.Infrastructure.Persistence.Initialization;
 
 public interface ICustomSeeder
 {

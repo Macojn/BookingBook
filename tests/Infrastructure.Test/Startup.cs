@@ -1,9 +1,9 @@
-﻿using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Application.Common.Persistence;
-using FSH.WebApi.Infrastructure.Caching;
-using FSH.WebApi.Infrastructure.Common.Services;
-using FSH.WebApi.Infrastructure.Localization;
-using FSH.WebApi.Infrastructure.Persistence.ConnectionString;
+﻿using BettingBook.Application.Common.Interfaces;
+using BettingBook.Application.Common.Persistence;
+using BettingBook.Infrastructure.Caching;
+using BettingBook.Infrastructure.Common.Services;
+using BettingBook.Infrastructure.Localization;
+using BettingBook.Infrastructure.Persistence.ConnectionString;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Configuration;

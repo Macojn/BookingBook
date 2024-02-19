@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Infrastructure.Notifications;
+﻿namespace BettingBook.Infrastructure.Notifications;
 
 public class SignalRSettings
 {

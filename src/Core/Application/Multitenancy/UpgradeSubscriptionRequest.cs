@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Application.Multitenancy;
+namespace BettingBook.Application.Multitenancy;
 
 public class UpgradeSubscriptionRequest : IRequest<string>
 {

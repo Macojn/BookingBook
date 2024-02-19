@@ -1,9 +1,9 @@
-﻿using FSH.WebApi.Application.Common.Events;
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Shared.Notifications;
+﻿using BettingBook.Application.Common.Events;
+using BettingBook.Application.Common.Interfaces;
+using BettingBook.Shared.Notifications;
 using MediatR;
 
-namespace FSH.WebApi.Infrastructure.Notifications;
+namespace BettingBook.Infrastructure.Notifications;
 
 // Sends all events that are also an INotificationMessage to all clients
 // Note: for this to work, the Event/NotificationMessage class needs to be in the

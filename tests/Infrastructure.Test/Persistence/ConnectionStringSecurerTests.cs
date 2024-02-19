@@ -1,7 +1,7 @@
-﻿using FSH.WebApi.Application.Common.Persistence;
+﻿using BettingBook.Application.Common.Persistence;
 using Xunit;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Tests;
+namespace BettingBook.Infrastructure.Persistence.Tests;
 
 public class ConnectionStringSecurerTests
 {

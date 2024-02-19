@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Host.Controllers;
+﻿namespace BettingBook.Host.Controllers;
 
 [Route("api/[controller]")]
 [ApiVersionNeutral]

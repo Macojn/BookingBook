@@ -1,11 +1,11 @@
 ﻿using Ardalis.Specification;
 using Ardalis.Specification.EntityFrameworkCore;
-using FSH.WebApi.Application.Common.Persistence;
-using FSH.WebApi.Domain.Common.Contracts;
-using FSH.WebApi.Infrastructure.Persistence.Context;
+using BettingBook.Application.Common.Persistence;
+using BettingBook.Domain.Common.Contracts;
+using BettingBook.Infrastructure.Persistence.Context;
 using Mapster;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Repository;
+namespace BettingBook.Infrastructure.Persistence.Repository;
 
 // Inherited from Ardalis.Specification's RepositoryBase<T>
 public class ApplicationDbRepository<T> : RepositoryBase<T>, IReadRepository<T>, IRepository<T>

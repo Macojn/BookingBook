@@ -1,6 +1,6 @@
-﻿using FSH.WebApi.Infrastructure.Multitenancy;
+﻿using BettingBook.Infrastructure.Multitenancy;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Initialization;
+namespace BettingBook.Infrastructure.Persistence.Initialization;
 
 internal interface IDatabaseInitializer
 {

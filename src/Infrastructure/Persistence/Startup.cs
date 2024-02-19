@@ -1,10 +1,10 @@
-using FSH.WebApi.Application.Common.Persistence;
-using FSH.WebApi.Domain.Common.Contracts;
-using FSH.WebApi.Infrastructure.Common;
-using FSH.WebApi.Infrastructure.Persistence.ConnectionString;
-using FSH.WebApi.Infrastructure.Persistence.Context;
-using FSH.WebApi.Infrastructure.Persistence.Initialization;
-using FSH.WebApi.Infrastructure.Persistence.Repository;
+using BettingBook.Application.Common.Persistence;
+using BettingBook.Domain.Common.Contracts;
+using BettingBook.Infrastructure.Common;
+using BettingBook.Infrastructure.Persistence.ConnectionString;
+using BettingBook.Infrastructure.Persistence.Context;
+using BettingBook.Infrastructure.Persistence.Initialization;
+using BettingBook.Infrastructure.Persistence.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -12,7 +12,7 @@ using Microsoft.Extensions.Options;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 using Serilog;
 
-namespace FSH.WebApi.Infrastructure.Persistence;
+namespace BettingBook.Infrastructure.Persistence;
 
 internal static class Startup
 {

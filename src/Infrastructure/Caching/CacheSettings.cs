@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Infrastructure.Caching;
+namespace BettingBook.Infrastructure.Caching;
 
 public class CacheSettings
 {

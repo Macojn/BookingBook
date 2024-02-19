@@ -1,13 +1,13 @@
-﻿using FSH.WebApi.Infrastructure.Identity;
-using FSH.WebApi.Infrastructure.Multitenancy;
-using FSH.WebApi.Infrastructure.Persistence.Context;
-using FSH.WebApi.Shared.Authorization;
-using FSH.WebApi.Shared.Multitenancy;
+﻿using BettingBook.Infrastructure.Identity;
+using BettingBook.Infrastructure.Multitenancy;
+using BettingBook.Infrastructure.Persistence.Context;
+using BettingBook.Shared.Authorization;
+using BettingBook.Shared.Multitenancy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Initialization;
+namespace BettingBook.Infrastructure.Persistence.Initialization;
 
 internal class ApplicationDbSeeder
 {

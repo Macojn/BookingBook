@@ -1,6 +1,6 @@
-using FSH.WebApi.Application.Dashboard;
+using BettingBook.Application.Dashboard;
 
-namespace FSH.WebApi.Host.Controllers.Dashboard;
+namespace BettingBook.Host.Controllers.Dashboard;
 
 public class DashboardController : VersionedApiController
 {

@@ -1,4 +1,4 @@
-﻿using FSH.WebApi.Infrastructure.Caching;
+﻿using BettingBook.Infrastructure.Caching;
 
 namespace Infrastructure.Test.Caching;
 

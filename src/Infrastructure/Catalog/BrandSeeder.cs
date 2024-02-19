@@ -1,11 +1,11 @@
 using System.Reflection;
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Domain.Catalog;
-using FSH.WebApi.Infrastructure.Persistence.Context;
-using FSH.WebApi.Infrastructure.Persistence.Initialization;
+using BettingBook.Application.Common.Interfaces;
+using BettingBook.Domain.Catalog;
+using BettingBook.Infrastructure.Persistence.Context;
+using BettingBook.Infrastructure.Persistence.Initialization;
 using Microsoft.Extensions.Logging;
 
-namespace FSH.WebApi.Infrastructure.Catalog;
+namespace BettingBook.Infrastructure.Catalog;
 
 public class BrandSeeder : ICustomSeeder
 {

@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Application.Common.FileStorage;
+namespace BettingBook.Application.Common.FileStorage;
 
 public interface IFileStorageService : ITransientService
 {

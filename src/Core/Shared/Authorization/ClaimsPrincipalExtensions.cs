@@ -1,4 +1,4 @@
-using FSH.WebApi.Shared.Authorization;
+using BettingBook.Shared.Authorization;
 
 namespace System.Security.Claims;
 

@@ -1,11 +1,11 @@
 using System.Data;
 using Dapper;
 using Finbuckle.MultiTenant.EntityFrameworkCore;
-using FSH.WebApi.Application.Common.Persistence;
-using FSH.WebApi.Domain.Common.Contracts;
-using FSH.WebApi.Infrastructure.Persistence.Context;
+using BettingBook.Application.Common.Persistence;
+using BettingBook.Domain.Common.Contracts;
+using BettingBook.Infrastructure.Persistence.Context;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Repository;
+namespace BettingBook.Infrastructure.Persistence.Repository;
 
 public class DapperRepository : IDapperRepository
 {

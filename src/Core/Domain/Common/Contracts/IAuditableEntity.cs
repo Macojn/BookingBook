@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Domain.Common.Contracts;
+namespace BettingBook.Domain.Common.Contracts;
 
 public interface IAuditableEntity
 {

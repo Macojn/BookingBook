@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Infrastructure.Auditing;
+namespace BettingBook.Infrastructure.Auditing;
 
 public enum TrailType : byte
 {

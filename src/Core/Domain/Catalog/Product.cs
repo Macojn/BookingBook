@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Domain.Catalog;
+namespace BettingBook.Domain.Catalog;
 
 public class Product : AuditableEntity, IAggregateRoot
 {
@@ -8,12 +8,6 @@ public class Product : AuditableEntity, IAggregateRoot
     public string? ImagePath { get; private set; }
     public Guid BrandId { get; private set; }
     public virtual Brand Brand { get; private set; } = default!;
-
-    public Product()
-    {
-        // Only needed for working with dapper (See GetProductViaDapperRequest)
-        // If you're not using dapper it's better to remove this constructor.
-    }
 
     public Product(string name, string? description, decimal rate, Guid brandId, string? imagePath)
     {

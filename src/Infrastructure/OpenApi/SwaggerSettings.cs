@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Infrastructure.OpenApi;
+namespace BettingBook.Infrastructure.OpenApi;
 
 public class SwaggerSettings
 {

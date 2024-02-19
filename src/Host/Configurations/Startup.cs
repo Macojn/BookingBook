@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Host.Configurations;
+namespace BettingBook.Host.Configurations;
 
 internal static class Startup
 {

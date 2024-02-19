@@ -1,6 +1,6 @@
-using FSH.WebApi.Domain.Common.Contracts;
+using BettingBook.Domain.Common.Contracts;
 
-namespace FSH.WebApi.Infrastructure.Auditing;
+namespace BettingBook.Infrastructure.Auditing;
 
 public class Trail : BaseEntity
 {

@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Infrastructure.Common;
+﻿namespace BettingBook.Infrastructure.Common;
 
 internal class DbProviderKeys
 {

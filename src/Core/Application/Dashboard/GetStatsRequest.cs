@@ -1,7 +1,7 @@
-﻿using FSH.WebApi.Application.Identity.Roles;
-using FSH.WebApi.Application.Identity.Users;
+﻿using BettingBook.Application.Identity.Roles;
+using BettingBook.Application.Identity.Users;
 
-namespace FSH.WebApi.Application.Dashboard;
+namespace BettingBook.Application.Dashboard;
 
 public class GetStatsRequest : IRequest<StatsDto>
 {

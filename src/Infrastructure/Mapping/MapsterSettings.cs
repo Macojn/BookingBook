@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Infrastructure.Mapping;
+﻿namespace BettingBook.Infrastructure.Mapping;
 
 public class MapsterSettings
 {

@@ -1,7 +1,7 @@
 ﻿using Finbuckle.MultiTenant;
-using FSH.WebApi.Application.Common.Caching;
+using BettingBook.Application.Common.Caching;
 
-namespace FSH.WebApi.Infrastructure.Caching;
+namespace BettingBook.Infrastructure.Caching;
 
 public class CacheKeyService : ICacheKeyService
 {

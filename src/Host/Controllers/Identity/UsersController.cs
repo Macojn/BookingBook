@@ -1,7 +1,7 @@
-using FSH.WebApi.Application.Identity.Users;
-using FSH.WebApi.Application.Identity.Users.Password;
+using BettingBook.Application.Identity.Users;
+using BettingBook.Application.Identity.Users.Password;
 
-namespace FSH.WebApi.Host.Controllers.Identity;
+namespace BettingBook.Host.Controllers.Identity;
 
 public class UsersController : VersionNeutralApiController
 {

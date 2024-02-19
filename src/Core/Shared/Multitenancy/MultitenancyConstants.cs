@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Shared.Multitenancy;
+namespace BettingBook.Shared.Multitenancy;
 
 public class MultitenancyConstants
 {

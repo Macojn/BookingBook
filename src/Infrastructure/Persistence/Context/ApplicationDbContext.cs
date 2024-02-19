@@ -1,12 +1,12 @@
 using Finbuckle.MultiTenant;
-using FSH.WebApi.Application.Common.Events;
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Domain.Catalog;
-using FSH.WebApi.Infrastructure.Persistence.Configuration;
+using BettingBook.Application.Common.Events;
+using BettingBook.Application.Common.Interfaces;
+using BettingBook.Domain.Catalog;
+using BettingBook.Infrastructure.Persistence.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Context;
+namespace BettingBook.Infrastructure.Persistence.Context;
 
 public class ApplicationDbContext : BaseDbContext
 {

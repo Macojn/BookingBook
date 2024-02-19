@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Infrastructure.Localization;
+﻿namespace BettingBook.Infrastructure.Localization;
 
 public class LocalizationSettings
 {

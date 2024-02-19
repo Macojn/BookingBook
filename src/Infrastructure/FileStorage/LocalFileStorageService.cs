@@ -1,10 +1,10 @@
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
-using FSH.WebApi.Application.Common.FileStorage;
-using FSH.WebApi.Domain.Common;
-using FSH.WebApi.Infrastructure.Common.Extensions;
+using BettingBook.Application.Common.FileStorage;
+using BettingBook.Domain.Common;
+using BettingBook.Infrastructure.Common.Extensions;
 
-namespace FSH.WebApi.Infrastructure.FileStorage;
+namespace BettingBook.Infrastructure.FileStorage;
 
 public class LocalFileStorageService : IFileStorageService
 {

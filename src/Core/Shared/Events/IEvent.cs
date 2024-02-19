@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Shared.Events;
+﻿namespace BettingBook.Shared.Events;
 
 public interface IEvent
 {

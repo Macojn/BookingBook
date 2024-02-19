@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Application.Dashboard;
+namespace BettingBook.Application.Dashboard;
 
 public class StatsDto
 {

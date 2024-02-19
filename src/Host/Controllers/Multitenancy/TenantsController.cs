@@ -1,6 +1,6 @@
-using FSH.WebApi.Application.Multitenancy;
+using BettingBook.Application.Multitenancy;
 
-namespace FSH.WebApi.Host.Controllers.Multitenancy;
+namespace BettingBook.Host.Controllers.Multitenancy;
 
 public class TenantsController : VersionNeutralApiController
 {

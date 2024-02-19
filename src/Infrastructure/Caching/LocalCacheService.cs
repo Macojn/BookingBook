@@ -1,8 +1,8 @@
-using FSH.WebApi.Application.Common.Caching;
+using BettingBook.Application.Common.Caching;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
 
-namespace FSH.WebApi.Infrastructure.Caching;
+namespace BettingBook.Infrastructure.Caching;
 
 public class LocalCacheService : ICacheService
 {

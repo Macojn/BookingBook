@@ -1,6 +1,6 @@
-using FSH.WebApi.Application.Catalog.Brands;
+using BettingBook.Application.Catalog.Brands;
 
-namespace FSH.WebApi.Application.Catalog.Products;
+namespace BettingBook.Application.Catalog.Products;
 
 public class ProductDetailsDto : IDto
 {

@@ -1,6 +1,6 @@
-﻿using FSH.WebApi.Domain.Common.Events;
+﻿using BettingBook.Domain.Common.Events;
 
-namespace FSH.WebApi.Application.Catalog.Products;
+namespace BettingBook.Application.Catalog.Products;
 
 public class DeleteProductRequest : IRequest<Guid>
 {

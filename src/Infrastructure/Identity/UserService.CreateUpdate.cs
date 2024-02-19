@@ -1,15 +1,15 @@
 ﻿using System.Security.Claims;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Common.Mailing;
-using FSH.WebApi.Application.Identity.Users;
-using FSH.WebApi.Domain.Common;
-using FSH.WebApi.Domain.Identity;
-using FSH.WebApi.Shared.Authorization;
+using BettingBook.Application.Common.Exceptions;
+using BettingBook.Application.Common.Mailing;
+using BettingBook.Application.Identity.Users;
+using BettingBook.Domain.Common;
+using BettingBook.Domain.Identity;
+using BettingBook.Shared.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Web;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace BettingBook.Infrastructure.Identity;
 
 internal partial class UserService
 {

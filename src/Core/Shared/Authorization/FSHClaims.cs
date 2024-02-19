@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Shared.Authorization;
+﻿namespace BettingBook.Shared.Authorization;
 
 public static class FSHClaims
 {

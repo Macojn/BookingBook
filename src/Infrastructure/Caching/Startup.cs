@@ -1,8 +1,8 @@
-﻿using FSH.WebApi.Application.Common.Caching;
+﻿using BettingBook.Application.Common.Caching;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace FSH.WebApi.Infrastructure.Caching;
+namespace BettingBook.Infrastructure.Caching;
 
 internal static class Startup
 {

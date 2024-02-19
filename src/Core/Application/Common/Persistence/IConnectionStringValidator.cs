@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Application.Common.Persistence;
+﻿namespace BettingBook.Application.Common.Persistence;
 
 public interface IConnectionStringValidator
 {

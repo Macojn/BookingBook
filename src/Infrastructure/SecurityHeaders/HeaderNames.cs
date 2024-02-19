@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Infrastructure.SecurityHeaders;
+﻿namespace BettingBook.Infrastructure.SecurityHeaders;
 
 internal class HeaderNames
 {

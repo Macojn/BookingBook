@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using OrchardCore.Localization;
 
-namespace FSH.WebApi.Infrastructure.Localization;
+namespace BettingBook.Infrastructure.Localization;
 
 internal static class Startup
 {

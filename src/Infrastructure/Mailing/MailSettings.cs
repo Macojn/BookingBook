@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Infrastructure.Mailing;
+namespace BettingBook.Infrastructure.Mailing;
 
 public class MailSettings
 {

@@ -1,13 +1,13 @@
 ﻿using Finbuckle.MultiTenant;
-using FSH.WebApi.Infrastructure.Auth;
-using FSH.WebApi.Infrastructure.Common;
-using FSH.WebApi.Infrastructure.Multitenancy;
-using FSH.WebApi.Shared.Multitenancy;
+using BettingBook.Infrastructure.Auth;
+using BettingBook.Infrastructure.Common;
+using BettingBook.Infrastructure.Multitenancy;
+using BettingBook.Shared.Multitenancy;
 using Hangfire;
 using Hangfire.Server;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace FSH.WebApi.Infrastructure.BackgroundJobs;
+namespace BettingBook.Infrastructure.BackgroundJobs;
 
 public class FSHJobActivator : JobActivator
 {

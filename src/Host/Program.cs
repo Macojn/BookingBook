@@ -1,9 +1,9 @@
-using FSH.WebApi.Application;
-using FSH.WebApi.Host.Configurations;
-using FSH.WebApi.Host.Controllers;
-using FSH.WebApi.Infrastructure;
-using FSH.WebApi.Infrastructure.Common;
-using FSH.WebApi.Infrastructure.Logging.Serilog;
+using BettingBook.Application;
+using BettingBook.Host.Configurations;
+using BettingBook.Host.Controllers;
+using BettingBook.Infrastructure;
+using BettingBook.Infrastructure.Common;
+using BettingBook.Infrastructure.Logging.Serilog;
 using Serilog;
 using Serilog.Formatting.Compact;
 

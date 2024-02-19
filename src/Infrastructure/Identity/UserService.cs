@@ -1,26 +1,26 @@
 using Ardalis.Specification;
 using Ardalis.Specification.EntityFrameworkCore;
 using Finbuckle.MultiTenant;
-using FSH.WebApi.Application.Common.Caching;
-using FSH.WebApi.Application.Common.Events;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Common.FileStorage;
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Application.Common.Mailing;
-using FSH.WebApi.Application.Common.Models;
-using FSH.WebApi.Application.Common.Specification;
-using FSH.WebApi.Application.Identity.Users;
-using FSH.WebApi.Domain.Identity;
-using FSH.WebApi.Infrastructure.Auth;
-using FSH.WebApi.Infrastructure.Persistence.Context;
-using FSH.WebApi.Shared.Authorization;
+using BettingBook.Application.Common.Caching;
+using BettingBook.Application.Common.Events;
+using BettingBook.Application.Common.Exceptions;
+using BettingBook.Application.Common.FileStorage;
+using BettingBook.Application.Common.Interfaces;
+using BettingBook.Application.Common.Mailing;
+using BettingBook.Application.Common.Models;
+using BettingBook.Application.Common.Specification;
+using BettingBook.Application.Identity.Users;
+using BettingBook.Domain.Identity;
+using BettingBook.Infrastructure.Auth;
+using BettingBook.Infrastructure.Persistence.Context;
+using BettingBook.Shared.Authorization;
 using Mapster;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Options;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace BettingBook.Infrastructure.Identity;
 
 internal partial class UserService : IUserService
 {

@@ -1,9 +1,9 @@
-﻿using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Common.Mailing;
-using FSH.WebApi.Application.Identity.Users.Password;
+﻿using BettingBook.Application.Common.Exceptions;
+using BettingBook.Application.Common.Mailing;
+using BettingBook.Application.Identity.Users.Password;
 using Microsoft.AspNetCore.WebUtilities;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace BettingBook.Infrastructure.Identity;
 
 internal partial class UserService
 {

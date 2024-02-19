@@ -1,22 +1,22 @@
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using FSH.WebApi.Infrastructure.Auth;
-using FSH.WebApi.Infrastructure.BackgroundJobs;
-using FSH.WebApi.Infrastructure.Caching;
-using FSH.WebApi.Infrastructure.Common;
-using FSH.WebApi.Infrastructure.Cors;
-using FSH.WebApi.Infrastructure.FileStorage;
-using FSH.WebApi.Infrastructure.Localization;
-using FSH.WebApi.Infrastructure.Mailing;
-using FSH.WebApi.Infrastructure.Mapping;
-using FSH.WebApi.Infrastructure.Middleware;
-using FSH.WebApi.Infrastructure.Multitenancy;
-using FSH.WebApi.Infrastructure.Notifications;
-using FSH.WebApi.Infrastructure.OpenApi;
-using FSH.WebApi.Infrastructure.Persistence;
-using FSH.WebApi.Infrastructure.Persistence.Initialization;
-using FSH.WebApi.Infrastructure.SecurityHeaders;
-using FSH.WebApi.Infrastructure.Validations;
+using BettingBook.Infrastructure.Auth;
+using BettingBook.Infrastructure.BackgroundJobs;
+using BettingBook.Infrastructure.Caching;
+using BettingBook.Infrastructure.Common;
+using BettingBook.Infrastructure.Cors;
+using BettingBook.Infrastructure.FileStorage;
+using BettingBook.Infrastructure.Localization;
+using BettingBook.Infrastructure.Mailing;
+using BettingBook.Infrastructure.Mapping;
+using BettingBook.Infrastructure.Middleware;
+using BettingBook.Infrastructure.Multitenancy;
+using BettingBook.Infrastructure.Notifications;
+using BettingBook.Infrastructure.OpenApi;
+using BettingBook.Infrastructure.Persistence;
+using BettingBook.Infrastructure.Persistence.Initialization;
+using BettingBook.Infrastructure.SecurityHeaders;
+using BettingBook.Infrastructure.Validations;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
@@ -26,13 +26,13 @@ using Microsoft.Extensions.DependencyInjection;
 
 [assembly: InternalsVisibleTo("Infrastructure.Test")]
 
-namespace FSH.WebApi.Infrastructure;
+namespace BettingBook.Infrastructure;
 
 public static class Startup
 {
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration config)
     {
-        var applicationAssembly = typeof(FSH.WebApi.Application.Startup).GetTypeInfo().Assembly;
+        var applicationAssembly = typeof(BettingBook.Application.Startup).GetTypeInfo().Assembly;
         MapsterSettings.Configure();
         return services
             .AddApiVersioning()

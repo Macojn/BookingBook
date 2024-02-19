@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Application.Catalog.Brands;
+﻿namespace BettingBook.Application.Catalog.Brands;
 
 public class DeleteRandomBrandRequest : IRequest<string>
 {

@@ -1,8 +1,8 @@
-using FSH.WebApi.Domain.Common.Events;
-using FSH.WebApi.Domain.Identity;
-using FSH.WebApi.Shared.Events;
+using BettingBook.Domain.Common.Events;
+using BettingBook.Domain.Identity;
+using BettingBook.Shared.Events;
 
-namespace FSH.WebApi.Application.Dashboard;
+namespace BettingBook.Application.Dashboard;
 
 public class SendStatsChangedNotificationHandler :
     IEventNotificationHandler<EntityCreatedEvent<Brand>>,

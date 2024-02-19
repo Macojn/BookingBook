@@ -1,14 +1,14 @@
 ﻿using Finbuckle.MultiTenant;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Common.Persistence;
-using FSH.WebApi.Application.Multitenancy;
-using FSH.WebApi.Infrastructure.Persistence;
-using FSH.WebApi.Infrastructure.Persistence.Initialization;
+using BettingBook.Application.Common.Exceptions;
+using BettingBook.Application.Common.Persistence;
+using BettingBook.Application.Multitenancy;
+using BettingBook.Infrastructure.Persistence;
+using BettingBook.Infrastructure.Persistence.Initialization;
 using Mapster;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Options;
 
-namespace FSH.WebApi.Infrastructure.Multitenancy;
+namespace BettingBook.Infrastructure.Multitenancy;
 
 internal class TenantService : ITenantService
 {

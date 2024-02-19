@@ -1,6 +1,6 @@
-using FSH.WebApi.Application.Identity.Tokens;
+using BettingBook.Application.Identity.Tokens;
 
-namespace FSH.WebApi.Host.Controllers.Identity;
+namespace BettingBook.Host.Controllers.Identity;
 
 public sealed class TokensController : VersionNeutralApiController
 {

@@ -1,14 +1,14 @@
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Infrastructure.Auth.AzureAd;
-using FSH.WebApi.Infrastructure.Auth.Jwt;
-using FSH.WebApi.Infrastructure.Auth.Permissions;
-using FSH.WebApi.Infrastructure.Identity;
+using BettingBook.Application.Common.Interfaces;
+using BettingBook.Infrastructure.Auth.AzureAd;
+using BettingBook.Infrastructure.Auth.Jwt;
+using BettingBook.Infrastructure.Auth.Permissions;
+using BettingBook.Infrastructure.Identity;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace FSH.WebApi.Infrastructure.Auth;
+namespace BettingBook.Infrastructure.Auth;
 
 internal static class Startup
 {

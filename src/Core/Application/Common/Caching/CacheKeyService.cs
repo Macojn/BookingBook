@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Application.Common.Caching;
+﻿namespace BettingBook.Application.Common.Caching;
 
 public interface ICacheKeyService : IScopedService
 {

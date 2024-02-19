@@ -1,6 +1,6 @@
-using FSH.WebApi.Application.Identity.Roles;
+using BettingBook.Application.Identity.Roles;
 
-namespace FSH.WebApi.Host.Controllers.Identity;
+namespace BettingBook.Host.Controllers.Identity;
 
 public class RolesController : VersionNeutralApiController
 {

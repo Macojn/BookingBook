@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Infrastructure.Identity;
+﻿namespace BettingBook.Infrastructure.Identity;
 
 public class RegisterUserEmailModel
 {

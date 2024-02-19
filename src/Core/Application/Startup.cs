@@ -1,7 +1,7 @@
 using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace FSH.WebApi.Application;
+namespace BettingBook.Application;
 
 public static class Startup
 {

@@ -1,6 +1,6 @@
 {
   "LoggerSettings": {
-    "AppName": "FSH.WebApi",
+    "AppName": "BettingBook",
     "WriteToFile": false,
     "StructuredConsoleLogging": true
   }

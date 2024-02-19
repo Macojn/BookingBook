@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Application.Common.Interfaces;
+namespace BettingBook.Application.Common.Interfaces;
 
 public interface ISerializerService : ITransientService
 {

@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace FSH.WebApi.Infrastructure.Common.Extensions;
+namespace BettingBook.Infrastructure.Common.Extensions;
 
 public static class RegexExtensions
 {

@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Application.Common.Specification;
+﻿namespace BettingBook.Application.Common.Specification;
 
 public class AuditableEntitiesByCreatedOnBetweenSpec<T> : Specification<T>
     where T : AuditableEntity

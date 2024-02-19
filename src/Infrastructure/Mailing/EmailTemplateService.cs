@@ -1,8 +1,8 @@
 using System.Text;
-using FSH.WebApi.Application.Common.Mailing;
+using BettingBook.Application.Common.Mailing;
 using RazorEngineCore;
 
-namespace FSH.WebApi.Infrastructure.Mailing;
+namespace BettingBook.Infrastructure.Mailing;
 
 public class EmailTemplateService : IEmailTemplateService
 {

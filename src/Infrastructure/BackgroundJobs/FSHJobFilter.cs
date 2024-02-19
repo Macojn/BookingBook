@@ -1,13 +1,13 @@
 ﻿using System.Security.Claims;
 using Finbuckle.MultiTenant;
-using FSH.WebApi.Infrastructure.Common;
-using FSH.WebApi.Shared.Multitenancy;
+using BettingBook.Infrastructure.Common;
+using BettingBook.Shared.Multitenancy;
 using Hangfire.Client;
 using Hangfire.Logging;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace FSH.WebApi.Infrastructure.BackgroundJobs;
+namespace BettingBook.Infrastructure.BackgroundJobs;
 
 public class FSHJobFilter : IClientFilter
 {

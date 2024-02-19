@@ -1,7 +1,7 @@
-﻿using FSH.WebApi.Application.Common.Interfaces;
+﻿using BettingBook.Application.Common.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace FSH.WebApi.Infrastructure.Common;
+namespace BettingBook.Infrastructure.Common;
 
 internal static class Startup
 {

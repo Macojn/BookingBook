@@ -1,18 +1,18 @@
 using Finbuckle.MultiTenant;
-using FSH.WebApi.Application.Common.Events;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Application.Identity.Roles;
-using FSH.WebApi.Domain.Identity;
-using FSH.WebApi.Infrastructure.Persistence.Context;
-using FSH.WebApi.Shared.Authorization;
-using FSH.WebApi.Shared.Multitenancy;
+using BettingBook.Application.Common.Events;
+using BettingBook.Application.Common.Exceptions;
+using BettingBook.Application.Common.Interfaces;
+using BettingBook.Application.Identity.Roles;
+using BettingBook.Domain.Identity;
+using BettingBook.Infrastructure.Persistence.Context;
+using BettingBook.Shared.Authorization;
+using BettingBook.Shared.Multitenancy;
 using Mapster;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace BettingBook.Infrastructure.Identity;
 
 internal class RoleService : IRoleService
 {

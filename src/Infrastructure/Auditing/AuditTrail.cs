@@ -1,7 +1,7 @@
-using FSH.WebApi.Application.Common.Interfaces;
+using BettingBook.Application.Common.Interfaces;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
-namespace FSH.WebApi.Infrastructure.Auditing;
+namespace BettingBook.Infrastructure.Auditing;
 
 public class AuditTrail
 {

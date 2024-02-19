@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Infrastructure.BackgroundJobs;
+namespace BettingBook.Infrastructure.BackgroundJobs;
 
 public class HangfireStorageSettings
 {

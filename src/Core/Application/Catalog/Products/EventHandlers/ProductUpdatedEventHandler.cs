@@ -1,6 +1,6 @@
-using FSH.WebApi.Domain.Common.Events;
+using BettingBook.Domain.Common.Events;
 
-namespace FSH.WebApi.Application.Catalog.Products.EventHandlers;
+namespace BettingBook.Application.Catalog.Products.EventHandlers;
 
 public class ProductUpdatedEventHandler : EventNotificationHandler<EntityUpdatedEvent<Product>>
 {

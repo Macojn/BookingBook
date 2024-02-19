@@ -1,7 +1,7 @@
-using FSH.WebApi.Shared.Authorization;
+using BettingBook.Shared.Authorization;
 using Microsoft.AspNetCore.Authorization;
 
-namespace FSH.WebApi.Infrastructure.Auth.Permissions;
+namespace BettingBook.Infrastructure.Auth.Permissions;
 
 public class MustHavePermissionAttribute : AuthorizeAttribute
 {

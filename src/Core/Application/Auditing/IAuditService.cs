@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Application.Auditing;
+namespace BettingBook.Application.Auditing;
 
 public interface IAuditService : ITransientService
 {

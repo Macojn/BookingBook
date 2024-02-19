@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Infrastructure.Middleware;
+namespace BettingBook.Infrastructure.Middleware;
 
 public class MiddlewareSettings
 {

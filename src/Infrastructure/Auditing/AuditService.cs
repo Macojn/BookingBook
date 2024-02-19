@@ -1,9 +1,9 @@
-using FSH.WebApi.Application.Auditing;
-using FSH.WebApi.Infrastructure.Persistence.Context;
+using BettingBook.Application.Auditing;
+using BettingBook.Infrastructure.Persistence.Context;
 using Mapster;
 using Microsoft.EntityFrameworkCore;
 
-namespace FSH.WebApi.Infrastructure.Auditing;
+namespace BettingBook.Infrastructure.Auditing;
 
 public class AuditService : IAuditService
 {
